@@ -1,0 +1,14 @@
+# Evita arquivos do sistema e cache
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node (se usar no futuro)
+node_modules/
+dist/
+.env
