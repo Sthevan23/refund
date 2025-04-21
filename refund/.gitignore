@@ -1,14 +1,27 @@
-# Evita arquivos do sistema e cache
-*.log
-*.tmp
+# Ignora node_modules, caso use futuramente
+node_modules/
+
+# Ignora arquivos temporários do sistema
 .DS_Store
 Thumbs.db
 
-# VS Code
+# Ignora configurações de IDE
 .vscode/
-*.code-workspace
 
-# Node (se usar no futuro)
-node_modules/
-dist/
-.env
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de cache
+*.cache
+*.tmp
+
+# Windows
+*.exe
+*.dll
+*.pdb
+*.db
+
+# Linux/macOS
+*.out
+*.swp
+
